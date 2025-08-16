@@ -7,16 +7,44 @@
     <title>Odin Recipes</title>
 </head>
 <body>
-    <header>
-         <h1>Odin Recipes</h1>
+
+    <header class="header">
+        <a href="index.html" class="header_link">
+            <img src="images/logo.webp" alt="Odin Recipes logo" class="logo" width="80" height="80">
+            <h1 class="logo_title">Odin Recipes</h1>
+        </a>
     </header>
    
-    <div class="recipes">
-        <ul>
-            <li><a href="recipes/carbonara.html">Pasta Carbonara</a></li>
-            <li><a href="recipes/chicken-katsu.html">Chicken Katsu</a></li>
-            <li><a href="recipes/risotto.html">Risotto</a></li>
+    <main class="recipes">
+        <h2> My Favourite Recipes</h2>
+        <p> These are three of my favourite and best recipes. Choose any of them and have a great meal!</p>
+        <ul class="recipe_list">
+            <li class="recipe_card">
+                <a href="recipes/carbonara.html">
+                    <img src="images/carbonara.jpg" class="recipe_image" alt="A plate of Carbonara Pasta">
+                    <h3>Pasta Carbonara</h3>
+                </a>
+            </li>
+
+            <li class="recipe_card">
+                <a href="recipes/chicken-katsu.html">
+                    <img src="images/katsu.jpg" class="recipe_image" alt="A plate of Katsu Chicken"> 
+                    <h3>Chicken Katsu</h3> 
+                </a>
+            </li>
+
+            <li class="recipe_card">
+                <a href="recipes/risotto.html"> 
+                    <img src="images/risotto.jpg" class="recipe_image" alt="A plate of Risotto"> 
+                    <h3>Risotto</h3>
+                </a>
+            </li>
+
         </ul>
-    </div>
+    </main>
+
+    <footer class="footer">
+        <p>Odin Recipes by David Aragao | 2025</p>
+    </footer>
 </body>
 </html>
